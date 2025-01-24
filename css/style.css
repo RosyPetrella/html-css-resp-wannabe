@@ -130,8 +130,18 @@ img {
 
  @media screen and (max-width: 768px) {
 
+
     .container {
-        width: 720px;
+        width: 80%;
+        max-width: 720px;
+    }
+
+    .steps {
+        width: 100%;
+
+        .container {
+            width: 100%;
+        }
     }
     
  }
@@ -139,7 +149,8 @@ img {
  @media screen and (max-width: 480px) {
 
     .container {
-        width: 432px;
+        width: 80%;
+        max-width: 432px;
     }
 
 

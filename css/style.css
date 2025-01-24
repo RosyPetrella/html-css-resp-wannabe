@@ -136,14 +136,43 @@ img {
     
  }
 
- @media screen and (max-width: 480) {
+ @media screen and (max-width: 480px) {
 
     .container {
         width: 432px;
     }
 
-    .lessons .col {
-        width: 100%;
+
+    .lessons {
+        
+        .row {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .col {
+            width: 100%;
+            padding-bottom: 3rem;
+            
+        }
+
+        
+    }
+
+    .steps {
+
+        .row {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .col {
+            width: 100%;
+            padding-bottom: 3rem;
+            
+        }
     }
         
     
